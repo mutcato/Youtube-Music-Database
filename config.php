@@ -23,6 +23,6 @@ define('MYSQL_HOSTNAME', 'localhost');
 define('USERNAME_INSERT', 'cruisear'); // olmasige_insert userın sadece insert ve select izinleri var 
 define('USERNAME_UPDATE', 'cruisear'); // olmasige_update userın sadece insert, update ve select izinleri var 
 define('USERNAME_SELECT', 'cruisear_select'); // olmasige_select userın sadece select izni var 
-define('PASSWORD', 'PW');
+define('PASSWORD', 'Password');
 define('DATABASE', 'cruisear_muzik');
 ?>
