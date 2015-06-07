@@ -1,0 +1,217 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+     border: 0px none;
+     color: white;
+     font: inherit;
+     margin: 0px;
+     padding: 0px;
+     text-decoration: none;
+     vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+     display: block;
+}
+
+body {
+     background: none repeat scroll 0% 0% #000000;
+     color: #ffffff;
+     line-height: 1;
+}
+
+#homee {
+     background: url("/img/homepage/7ab80bfd52efdc090d41c2042d4dfdd1_large.jpeg") no-repeat scroll 100% 100% / cover  transparent;
+     height: 30%;
+     position: absolute;
+     width: 100%;
+}
+
+#homepageLogo {
+     background: url("/img/logo/cruisear-logo-3.png") no-repeat scroll 100% 1px / 100px 52px transparent;
+     height: 28px;
+     left: 10px;
+     position: absolute;
+     top: 10px;
+     width: 100px;
+}
+
+ol, ul {
+     list-style: outside none none;
+}
+
+.temizle {
+     clear: both;
+}
+
+#fbLike {
+     float: left;
+     position: absolute;
+     top: 0px;
+  	left:10%;
+     z-index: 4;
+}
+
+#twFallow {
+     left: 20%;
+     position: absolute;
+     top: 22px;
+     z-index: 5;
+}
+
+#contact {
+     color: #000000;
+     font-family: "Segoe UI","Arial",Georgia,serif;
+     position: absolute;
+     right: 1%;
+     top: 15px;
+}
+
+#ytplayer {
+     left: 0px;
+     top: 0px;
+     width: 100%;
+     z-index: 1;
+}
+
+#artist_name {
+     color: #777877;
+     display: inline;
+     font-size: 3em;
+     font-weight: 600;
+     text-transform: uppercase;
+     vertical-align: baseline;
+}
+
+#track_name {
+     color: #777877;
+     display: inline;
+     font-size: 2.5em;
+     margin-left: 5px;
+     vertical-align: baseline;
+}
+
+#artist_track {
+     font-family: "Arial",Georgia,serif;
+     margin-bottom: 0px;
+     margin-left: 0px;
+     margin-right: auto;
+     padding-left: 5px;
+     padding-right: 0px;
+     padding-top: 5px;
+}
+
+#artist_track:hover {
+    
+}
+
+#artist_channel {
+     background-color: #151716;
+     width: 100%;
+}
+
+#changeSong {
+     margin-left: 10px;
+     padding: 1px 2px;
+     text-decoration: none;
+}
+
+#changeSong img {
+     margin-top: 10px;
+     max-width: 190px;
+     width: 15%;
+}
+
+.fav {
+     position: relative;
+     right: 0px;
+}
+
+.fav a {
+     margin-left: 20px;
+     padding-left: 8px;
+     padding-right: 8px;
+     padding-top: 100px;
+}
+
+.fav a:hover {
+     background-color: #185060;
+}
+
+.fav img {
+     width: 8%;
+}
+
+#player {
+     font-family: "Arial",Georgia,serif;
+     margin-top: 0px;
+     z-index: 99;
+}
+
+#channel {
+     color: #777877;
+     font-family: "Arial",Georgia,serif;
+     font-size: 1.9em;
+     margin-left: 10px;
+}
+
+#channelInfo {
+     color: #777877;
+     font-size: 1.2em;
+}
+
+.btn-success {
+     font-family: "Arial",Georgia,serif;
+     font-size: 30px;
+     margin-left: 0px;
+     margin-right: auto;
+     width: 100%;
+}
+
+#radiochannelname {
+     font-size: 40px;
+}
+
+#tagsHeader {
+     background-color: #32323b;
+     font-family: "Segoe UI","Arial",Georgia,serif;
+     font-size: 70px;
+     margin: 10% 0px 0px;
+     padding: 20px 0px 20px 30px;
+}
+
+#combination {
+     background-color: #32323b;
+}
+
+.FixedHeightContainer {
+     font-family: "Segoe UI","Arial",Georgia,serif;
+     font-size: 4em;
+     margin-top: 0px;
+     position: relative;
+}
+
+.cekbox {
+     min-height: 80px;
+     min-width: 80px;
+}
+
+.cbox:hover {
+     background: none repeat scroll 0% 0% #fcdc4c;
+     color: #000000;
+}
+
+.FindButton {
+     background-color: #4d6ce8;
+     border: 0px none;
+     bottom: 0px;
+     font-style: italic;
+     height: 80px;
+     padding: 5px;
+     position: fixed;
+     text-align: center;
+     width: 100%;
+     z-index: 9999;
+}
+
+.FindButton:hover {
+     cursor: pointer;
+}

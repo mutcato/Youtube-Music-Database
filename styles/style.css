@@ -1,0 +1,289 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+     border: 0px none;
+     font-family: inherit;
+     font-feature-settings: inherit;
+     font-kerning: inherit;
+     font-language-override: inherit;
+     font-size-adjust: inherit;
+     font-size: 1em;
+     font-stretch: inherit;
+     font-style: inherit;
+     font-synthesis: inherit;
+     font-variant: inherit;
+     font-weight: inherit;
+     line-height: inherit;
+     margin: 0px;
+     padding: 0px;
+     vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+     display: block;
+}
+
+body {
+     background: none repeat scroll 0% 0% #000000;
+     color: #ffffff;
+     line-height: 1;
+}
+
+#homee {
+     background: url("/img/homepage/7ab80bfd52efdc090d41c2042d4dfdd1_large.jpeg") no-repeat scroll 100% 100% / cover  transparent;
+     height: 100%;
+     position: absolute;
+     width: 100%;
+}
+
+#homepageLogo {
+     background: url("/img/logo/logo.png") no-repeat scroll 100% 1px / 200px 100px transparent;
+     height: 110px;
+     left: 10px;
+     position: absolute;
+     top: 10px;
+     width: 200px;
+}
+
+#homepageLogo:hover {
+    
+}
+
+#dinleLogo {
+     background: url("/img/logo/logo.png") no-repeat scroll 100% 1px / 100px 52px transparent;
+     height: 54px;
+     left: 10px;
+     position: absolute;
+     top: 34px;
+     width: 100px;
+     z-index: 999;
+}
+
+#dinleLogo:hover {
+     background: url("/img/logo/dinlelogo.png") no-repeat scroll 100% 1px / 100px 52px transparent;
+}
+
+ol, ul {
+     list-style: outside none none;
+}
+
+blockquote, q {
+     quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+     content: none;
+}
+
+table {
+     border-collapse: collapse;
+     border-spacing: 0px;
+}
+
+.temizle {
+     clear: both;
+}
+
+#fbLike {
+     float: left;
+     position: relative;
+     top: 170px;
+     z-index: 4;
+}
+
+#twFallow {
+     float: left;
+     left: -400px;
+     position: relative;
+     top: 212px;
+     z-index: 5;
+}
+
+#sosyalmedya {
+     position: absolute;
+     top: 38%;
+     z-index: 5;
+}
+
+#contact {
+     color: #000000;
+     font-family: "Segoe UI","Arial",Georgia,serif;
+}
+
+#homeguide {
+     background: url("/img/homeguide.png") no-repeat scroll 50% 1px / 34em 5em transparent;
+     height: 100px;
+     position: absolute;
+     top: 20%;
+  		right: 16%;
+     width: 560px;
+}
+
+
+#ytplayer {
+     left: 0px;
+     position: relative;
+     z-index: 1;
+}
+
+#trackimage {
+     bottom: 0px;
+     left: 0px;
+     position: absolute;
+     width: 90px;
+     z-index: 999;
+}
+
+#player {
+     background-color: #1b1b1b;
+     bottom: 0px;
+     font-family: "Segoe UI",Arial,Georgia,serif;
+     font-size: 100%;
+     height: 6.1%;
+     left: 0px;
+     padding: 0px 9px 3px 3px;
+     position: absolute;
+     width: 86%;
+}
+
+#plchfav {
+     float: left;
+     width: 96%;
+}
+
+#nexttrack {
+    position: absolute;
+    top: 68%;
+    left: 15px;
+    width: 80px;
+    height: 110px;
+	cursor: pointer;
+    background: url("/img/nexttrack.png");
+    background-size:80px 220px;
+    background-repeat:no-repeat;
+    background-position: 100% -110px;
+	z-index: 555;
+}
+#nexttrack:hover {
+	background-position: 100% 0px;
+}
+
+#channel {
+     color: #828282;
+     float: left;
+     font-family: "Segoe UI",Arial,Georgia,serif;
+     font-size: 1em;
+     font-style: italic;
+     margin-left: 9px;
+     margin-right: 9px;
+     margin-top: 14px;
+}
+
+#channelInfo {
+     font-size: 1em;
+     font-style: normal;
+}
+
+#artist_channel {
+    
+}
+
+#artist_name {
+     font-size: 1.9em;
+     font-weight: 600;
+     text-transform: uppercase;
+}
+
+#track_name {
+     font-size: 1.5em;
+     margin-left: 5px;
+}
+
+#artist_track {
+     color: #828282;
+     float: left;
+     font-family: "Arial",Georgia,serif;
+     height: 35px;
+     padding-left: 5px;
+     padding-right: 0px;
+     padding-top: 5px;
+}
+
+#artist_track:hover {
+     float: left;
+}
+
+.fav {
+    
+}
+
+.fav a {
+    
+}
+
+.fav a:hover {
+    
+}
+
+.fav img {
+     height: 32px;
+}
+
+.btn-success {
+     font-family: "Arial",Georgia,serif;
+     font-size: 6px;
+     margin-left: 0px;
+     padding: 0px;
+}
+
+#changeradio img {
+     height: 32px;
+}
+
+#tagsHeader {
+     background-color: black;
+     font-size: 20px;
+}
+
+.FixedHeightContainer {
+     background-color: #000000;
+     font-family: "Segoe UI",Arial,Georgia,serif;
+     font-size: 1em;
+     height: 100%;
+     padding: 3px 9px 3px 3px;
+     position: fixed;
+     right: 0px;
+     top: 0px;
+     width: 15%;
+     z-index: 100;
+}
+
+.TagContent {
+     background-image: url("../img/bg.png");
+     color: #b7b7c7;
+     height: 95.8%;
+     overflow: auto;
+}
+
+.checkbox {
+    
+}
+
+.cbox:hover {
+     background: none repeat scroll 0% 0% #fcdc4c;
+     color: #000000;
+}
+
+.FindButton {
+     background-color: orange;
+     border: medium none;
+     color: white;
+     height: 29px;
+     margin-top: 2px;
+     padding: 0px;
+     text-align: center;
+     text-decoration: none;
+     width: 193px;
+}
+
+.FindButton:hover {
+     cursor: pointer;
+}
