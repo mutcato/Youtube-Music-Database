@@ -16,13 +16,13 @@ define('FACEBOOK_PAGE', 'InternetMusicDatabase'); //home.php ve dinle.php'deki F
  * Google Developers Console <https://console.developers.google.com/>
  * Please ensure that you have enabled the YouTube Data API for your project.
  */
-$GOOGLE_DEVELOPER_KEY = 'AIzaSyD0qlGP_EqTH0RwLq4wKsK7b-hsB3aUV-0';
+$GOOGLE_DEVELOPER_KEY = '****';
 
 /* Mysql Settings */
 define('MYSQL_HOSTNAME', 'localhost');
 define('USERNAME_INSERT', 'cruisear'); // olmasige_insert userın sadece insert ve select izinleri var 
 define('USERNAME_UPDATE', 'cruisear'); // olmasige_update userın sadece insert, update ve select izinleri var 
 define('USERNAME_SELECT', 'cruisear_select'); // olmasige_select userın sadece select izni var 
-define('PASSWORD', 'Password');
+define('PASSWORD', '*****');
 define('DATABASE', 'cruisear_muzik');
 ?>
